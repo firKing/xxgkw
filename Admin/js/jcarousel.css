@@ -1,0 +1,7 @@
+*{padding:0px; margin:0px;}
+.jcarousel ul{position:absolute; bottom:10px;right:20px; z-index:200; list-style:none; display:block;}
+.jcarousel ul li{float:left; color:#9FA2B8; background:#fff; width:15px; height:15px; margin:3px;_display:inline; text-align:center; font-size:12px; font-family:Arial;}
+.jcarousel a img{border:none;}
+.lihover{color:#FFF!important;background:#9FA2B8!important;}
+
+

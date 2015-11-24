@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网上互动</title>
+<link href="__CSS__/xxgkzn.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<!-- 以下是头部 -->
+		<div id="head">
+		</div>
+		<!-- 以下是导航 -->
+		<include file="Public:nav" />
+		<!-- 以下为内容部分 -->
+        <div id="con">
+            <div id="con_l">
+                <div id="box">
+                    <ul id="list">
+                        <li class="list"><a href="http://office.cqupt.edu.cn/mail.php">书记校长信箱</a></li>
+                        
+						<li class="list"><a href="__APP__/Interaction/index/tid/6">网上公示</a></li>
+						
+                        
+						<li class="list"><a href="__APP__/Interaction/index/tid/7">最新规章制度</a></li>
+                    
+					</ul>
+                </div>
+            </div>
+                 <div id="con_m">
+                <div id="title">
+                    您的位置：首页<span>></span>网上互动<span>></span><{$type}><span>></span><{$content.art_title}>
+                </div>
+                <div id="passage">
+                    <h1><{$content.art_title}></h1><br />
+                    <div class="contents">
+                        <p style="text-align:center;"><{$ann_show}><p/><br />
+                        <{$content.art_content}>
+                    </div> 
+                </div>
+			
+            </div>
+		
+        </div>
+		<!--底部版本信息-->
+        <include file="Public:footer" />
+	</div>
+<script src="__JS__/jquery-1.10.2.min.js"></script>
+<script src="__JS__/head.js"></script>
+<script src="__JS__/height.js"></script>
+<script>
+    $(".num5").addClass("hover");
+</script>
+</body>
+</html>

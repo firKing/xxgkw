@@ -1,0 +1,323 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xiangyi
+ * @date    2013-10-06 23:59:31
+ * @version 1.0
+ */
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ }
+img{
+	border: none;
+}
+body{
+	background: #dfebff;
+}
+#wrap{
+	width: 997px;
+	margin: 0 auto;
+}
+/*以下是头部*/
+#head{
+	width: 997px;
+	height: 169px;
+	background: url(../Img/head.gif);
+	position: relative;
+}
+#lang{
+	position: absolute;
+	top: 2px;
+	left: 827px;
+	_margin-top:-2px;
+}
+#lang a{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #c6e3fd;
+	text-decoration: none;
+}
+#lang span{margin-right: 20px;}
+/*以下是导航栏*/
+.nav{
+	width: 997px;
+	height: 55px;
+	background: url(../Img/nav.gif);
+    position: relative;
+    z-index: 100;
+}
+.nav ul{
+	width: 997px;
+	list-style: none;
+	position: relative;
+}
+.nav ul li{
+	float: left;
+	display: block;
+	position: absolute;
+}
+.nav ul li a{
+	line-height: 45px;
+	height: 55px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #fdfdfd;
+	display: block;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+}
+.nav ul li a:hover{color: #0277fb;}
+.hover a{
+    color: #0277fb !important;
+    background: url(../Img/num2.gif);
+}
+/*以下为清楚前面nav给的属性和设置一些公共属性*/
+#num2 ul li{
+    margin: 10px 0 0 15px;
+    _margin: 10px 0 0 7px;
+    position: relative;
+    height: 20px;
+}
+#num2 ul li a{
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    background: none;
+    text-align: left;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #8a8989 !important;
+}
+#num3 ul li{
+    margin: 10px 0 0 15px;
+    _margin: 10px 0 0 7px;
+    position: relative;
+    height: 20px;
+}
+#num3 ul li a{
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    background: none;
+    text-align: left;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #8a8989 !important;
+}#num5 ul li{
+     margin: 10px 0 0 15px;
+     _margin: 10px 0 0 7px;
+     position: relative;
+     height: 20px;
+ }
+#num5 ul li a{
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    background: none;
+    text-align: left;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #8a8989 !important;
+}
+/*-----------------------*/
+.num1{left:110px;}
+.num1 a{width: 115px;}
+.num1 a:hover{background: url(../Img/num2.gif);}
+
+.num2 {left:260px}
+.num2 a{width: 120px;}
+.num2 a:hover{background: url(../Img/num2.gif);}
+#num2{display: none;}
+#num2 ul{
+    padding-bottom: 10px;
+    width: 199px;
+    height: 30px;
+    height: auto;
+    min-height: 30px;
+    background: #fbfbfe;
+    position: absolute;
+    top: 43px;
+    left: 3px;
+    border: 1px solid #c9c9cb;
+    border-top:none;
+}
+.num3 {left:422px;}
+.num3 a{width: 120px;}
+.num3 a:hover{background: url(../Img/num2.gif);}
+#num3{display: none;}
+#num3 ul{
+    padding-bottom: 10px;
+    width: 254px;
+    height: 30px;
+    height: auto;
+    min-height: 30px;
+    background: #fbfbfe;
+    position: absolute;
+    top: 43px;
+    left: 3px;
+    border: 1px solid #c9c9cb;
+    border-top:none;
+}
+.num4 {left:585px;}
+.num4 a{width: 120px;}
+.num4 a:hover{background: url(../Img/num2.gif);}
+
+.num5 {left:735px;}
+.num5 a{width: 120px;}
+.num5 a:hover{background: url(../Img/num2.gif);}
+#num5{display: none;}
+#num5 ul{
+    padding-bottom: 10px;
+    width: 127px;
+    height: 30px;
+    height: auto;
+    min-height: 30px;
+    background: #fbfbfe;
+    position: absolute;
+    top: 43px;
+    left: 3px;
+    border: 1px solid #c9c9cb;
+    border-top:none;
+}
+/*以上是封装好的头部*/
+/*以下为内容部分*/
+#con{
+	width: 997px;
+	height: 662px;
+	background: #fbfbfe;
+    position: relative;
+    z-index: 1;
+}
+#con_l{
+	width: 158px;
+	height: 600px;
+	margin: 12px 0 0 0;
+	border-right: 2px solid #dfebff;
+	float: left;
+}
+#con_l img{margin-left: 16px;}
+#con_l ul{
+	list-style: none;
+	margin-left: 16px;
+}
+.list{
+	background: url(../Img/list2.gif) no-repeat;
+	padding-left:20px;
+}
+.list a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #363636;
+	line-height: 2.2;
+	text-decoration: none;
+}
+/*中间内容*/
+#con_m{
+	float: left;
+}
+#con1{
+	width: 580px;
+	height: 320px;
+	margin: 0 20px 0 20px;
+}
+#con2{
+	width: 580px;
+	height: 320px;
+	margin: 0 20px 0 20px;
+}
+.title{
+	border-bottom: 2px solid #d7d9da;
+	height: 47px;
+	position: relative;
+}
+.title img{
+	position: relative;
+	top: 9px;
+}
+.h{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #0472f9;
+}
+.more{
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+}
+.more a{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #5a5a5a;
+	text-decoration: none;
+}
+.article{
+     list-style: none;
+     font-family: "宋体";
+     font-size: 12px;
+ }
+.article li{
+    height: 34px;
+    border-bottom: 1px dashed #8e8e8f;
+    position: relative;
+    display: block;
+    line-height: 34px;
+}
+.article li span a{
+    color: #393939;
+    text-decoration: none;
+}
+.date{
+    color: #8e8e8f;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#con_r{
+	width: 208px;
+	float: left;
+}
+#con_r a img{
+	margin-top: 10px;
+}
+#con_r div{
+	width: 202px;
+	height: 376px;
+	background: url(../Img/broder.gif) no-repeat;
+	margin-top: 20px;
+}
+#con_r div ul{
+	list-style: none;
+	margin:20px 10px 0px 10px;
+	_margin:10px 10px 0px 10px;
+}
+#con_r div h1{
+	padding-top: 10px;
+	margin-left:50px;
+}
+#con_r div ul li{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #323232;
+	margin-top: 10px;
+	_margin-top: 5px;
+	word-break: break-all;
+}
+#foot{
+	width:997px;
+	height: 50px;
+	background: #258ffe;
+	position: absolute;
+	top:940px;
+	text-align: center;
+	line-height: 50px;
+}
+#foot p{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #fafbfc;
+}

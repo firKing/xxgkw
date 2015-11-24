@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>信息公开指南</title>
+<link href="__CSS__/xxgkzn.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<!-- 以下是头部 -->
+		<div id="head">
+
+		</div>
+		<!-- 以下是导航 -->
+        <include file="Public:nav" />
+		<!-- 以下为内容部分 -->
+        <div id="con">
+            <div id="con_l">
+                <div id="box">
+                    <ul id="list">
+                        <foreach name='type_list' item='tl'>
+                            <li class="list"><a href="__APP__/Guide/index/tid/<{$tl.typeid}>"><{$tl.typedetail}></a></li>
+                        </foreach>
+                    </ul>
+                </div>
+            </div>
+            <div id="con_m">
+                <div id="title">
+                    您的位置：首页<span>></span>信息公开指南<span>></span><{$type}>
+                </div>
+                <div id="passage">
+                    <h1><{$content.art_title}></h1><br />
+                    <div class="contents">
+                        <p style="text-align:center;"><{$ann_show}><p/><br />
+                        <{$content.art_content}>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div id="foot">
+			<p>版权所有　重庆邮电大学　地址：重庆市南岸区崇文路2号　邮编：400065　校长邮箱　webmaster　渝ICP备05001043号</p>
+		</div>
+	</div>
+<script src="__JS__/jquery-1.10.2.min.js"></script>
+<script src="__JS__/head.js"></script>
+<script src="__JS__/height.js"></script>
+</body>
+</html>

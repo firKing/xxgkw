@@ -1,0 +1,60 @@
+.wysiwyg{
+	padding:1px;
+	background-color:#F0F0EE;
+	width:560px;
+	border:1px solid #CCCCCC;
+}
+.htmlarea { background: #fff; }
+.toolbar {
+  cursor: default;
+  background: #F0F0EE;
+  padding: 1px 1px 2px 1px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.button {
+  background: #F0F0EE;
+  color: ButtonText;
+  border: 1px solid #F0F0EE;
+  padding: 1px;
+  margin: 0px;
+  width: 18px;
+  height: 18px;
+}
+.buttonHover {
+  border: 1px solid;
+  border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+.buttonActive,.buttonPressed {
+  padding: 2px 0px 0px 2px;
+  border: 1px solid;
+  border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+}
+.buttonPressed {
+  background: ButtonHighlight;
+}
+.indicator {
+  padding: 0px 3px;
+  overflow: hidden;
+  width: 20px;
+  text-align: center;
+  cursor: default;
+  border: 1px solid ButtonShadow;
+}
+.buttonDisabled img {
+  filter: alpha(opacity = 25);
+  -moz-opacity: 0.25;
+}
+.separator {
+  position: relative;
+  margin: 3px;
+  border-left: 1px solid ButtonShadow;
+  border-right: 1px solid ButtonHighlight;
+  width: 0px;
+  height: 16px;
+  padding: 0px;
+}
+.space { width: 5px; }
+.toolbar select { font: 11px Tahoma,Verdana,sans-serif; }
+.toolbar select,
+.toolbar select:hover,
+.toolbar select:active { background: FieldFace; color: ButtonText; }

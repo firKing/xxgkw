@@ -1,0 +1,107 @@
+/* CSS Document */
+body {
+	font-family:Verdana;
+	FONT-SIZE: 12px;
+	MARGIN: 0;
+	color: #000000;
+	background: #F7F7F7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	SCROLLBAR-BASE-COLOR: #739ACE
+}
+form{
+    margin:0px;
+    display:inline;
+}
+table {
+	BORDER-TOP: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-BOTTOM: 2px
+}
+select {
+	FONT-SIZE: 12px;
+	font-family:Verdana;
+	COLOR: #000000; 
+	background-color: #E0E2F1;
+}
+lable{
+	text-align:center;
+	height:100%;
+	line-height:100%;
+	vertical-align:middle
+}
+a {
+	TEXT-DECORATION: none;
+	color:#000000
+}
+a:hover{
+	text-decoration: underline;
+}
+input,object{
+	font-size: 12px;
+	font-family:Verdana;
+	border:1px solid #739ACE;
+	height:21px;
+}
+textarea{
+	font-size: 12px;
+	font-family:Verdana;
+	border:1px solid #739ACE;
+}
+td {
+	BORDER-RIGHT: 1px;
+	BORDER-TOP: 0px;
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+}
+.left_padding{
+	background:#F7F7F7;
+}
+.hr  {
+	border-top: 1px solid #6365CE;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.i_table{
+	border: 1px solid #739ACE;
+	background:#DEE3EF;
+}
+.i_table *{
+	line-height:20px;
+}
+.i_table td{
+	background:#F7F7F7;
+}
+.i_table input {
+	width:400px;
+	BACKGROUND: #F8F8F8;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: normal
+}
+.i_table textarea {
+	width:400px;
+	height:150px;
+}
+.i_table_title{
+	color: #ffffff;
+	font-weight:bold;
+	background-color:#739ACE;
+}
+.i_table_title td,.i_table_title a{
+	color: #ffffff;
+	font-weight:bold;
+	background: #739ACE;
+}
+.i_table_sex input,.i_table_sexs input{
+	width:20px;
+	border:0;
+	background:#F7F7F7;
+}
+.i_table_foot input{
+	width:50px;
+	height:20px;
+}

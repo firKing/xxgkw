@@ -1,0 +1,396 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xiangyi
+ * @date    2013-10-06 23:59:31
+ * @version 1.0
+ */
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ }
+img{
+	border: none;
+}
+body{
+	background: #dfebff;
+}
+#wrap{
+	width: 997px;
+	margin: 0 auto;
+}
+/*以下是头部*/
+#head{
+	width: 997px;
+	height: 169px;
+	background: url(../Img/head.gif);
+	position: relative;
+}
+#lang{
+	position: absolute;
+	top: 2px;
+	left: 827px;
+	_margin-top:-2px;
+}
+#lang a{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #c6e3fd;
+	text-decoration: none;
+}
+#lang span{margin-right: 20px;}
+/*以下是导航栏*/
+.nav{
+	width: 997px;
+	height: 55px;
+	background: url(../Img/nav.gif);
+    position: relative;
+    z-index: 100;
+}
+.nav ul{
+	width: 997px;
+	list-style: none;
+	position: relative;
+    z-index: 100;
+}
+.nav ul li{
+	float: left;
+	display: block;
+	position: absolute;
+}
+.nav ul li a{
+	line-height: 45px;
+	height: 55px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #fdfdfd;
+	display: block;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+}
+.nav ul li a:hover{color: #0277fb;}
+.hover a{
+    color: #0277fb !important;
+    background: url(../Img/num2.gif);
+}
+/*以下为清楚前面nav给的属性和设置一些公共属性*/
+#num2 ul li{
+    margin: 10px 0 0 15px;
+    _margin: 10px 0 0 7px;
+    position: relative;
+    height: 20px;
+}
+#num2 ul li a{
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    background: none;
+    text-align: left;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #8a8989 !important;
+}
+#num3 ul li{
+    margin: 10px 0 0 15px;
+    _margin: 10px 0 0 7px;
+    position: relative;
+    height: 20px;
+}
+#num3 ul li a{
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    background: none;
+    text-align: left;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #8a8989 !important;
+}#num5 ul li{
+     margin: 10px 0 0 15px;
+     _margin: 10px 0 0 7px;
+     position: relative;
+     height: 20px;
+ }
+#num5 ul li a{
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    background: none;
+    text-align: left;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #8a8989 !important;
+}
+/*-----------------------*/
+.num1{left:110px;}
+.num1 a{width: 115px;}
+.num1 a:hover{background: url(../Img/num2.gif);}
+
+.num2 {left:260px}
+.num2 a{width: 120px;}
+.num2 a:hover{background: url(../Img/num2.gif);}
+#num2{display: none;}
+#num2 ul{
+    padding-bottom: 10px;
+    width: 199px;
+    height: 30px;
+    height: auto;
+    min-height: 30px;
+    background: #fbfbfe;
+    position: absolute;
+    top: 43px;
+    left: 3px;
+    border: 1px solid #c9c9cb;
+    border-top:none;
+}
+.num3 {left:422px;}
+.num3 a{width: 120px;}
+.num3 a:hover{background: url(../Img/num2.gif);}
+#num3{display: none;}
+#num3 ul{
+    padding-bottom: 10px;
+    width: 254px;
+    height: 30px;
+    height: auto;
+    min-height: 30px;
+    background: #fbfbfe;
+    position: absolute;
+    top: 43px;
+    left: 3px;
+    border: 1px solid #c9c9cb;
+    border-top:none;
+}
+.num4 {left:585px;}
+.num4 a{width: 120px;}
+.num4 a:hover{background: url(../Img/num2.gif);}
+
+.num5 {left:735px;}
+.num5 a{width: 120px;}
+.num5 a:hover{background: url(../Img/num2.gif);}
+#num5{display: none;}
+#num5 ul{
+    padding-bottom: 10px;
+    width: 127px;
+    height: 30px;
+    height: auto;
+    min-height: 30px;
+    background: #fbfbfe;
+    position: absolute;
+    top: 43px;
+    left: 3px;
+    border: 1px solid #c9c9cb;
+    border-top:none;
+}
+/*以上是封装好的头部*/
+/*以下为内容部分*/
+#con{
+    width: 997px;
+    height: 662px;
+    height: auto;
+    min-height: 662px;
+    background: #fbfbfe;
+    position: relative;
+    z-index: 1;
+}
+#con_l{
+    width: 256px;
+    height: 600px;
+    margin: 12px 0 0 0;
+    border-right: 2px solid #dfebff;
+    float: left;
+}
+#box{
+    width: 214px;
+    height: 600px;
+    margin: 0 auto;
+    border-top: 3px solid #0085e6;
+}
+#con_l ul{
+    list-style: none;
+    margin-left: -5px;
+}
+.list{
+    background: url(../Img/list1.gif) 0 -4px no-repeat;
+    padding-left:20px;
+}
+.list a{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #363636;
+    line-height: 2.2;
+    text-decoration: none;
+}
+#con_m{
+    width: 735px;
+    height: 600px;
+    height:auto;
+    min-height:600px;
+    float: left;
+
+}
+#title{
+    width: 700px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+    border-bottom: 2px solid #d0d0d0;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #030000;
+}
+.article_l{
+    width: 700px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #8e8e8f;
+    list-style: none;
+}
+.article_l a{
+    font-family: "宋体";
+    font-size: 12px;
+    color: #030000;
+    text-decoration: none;
+}
+#passage{
+    width: 700px;
+    height: 580px;
+    height:auto;
+    min-height:580px;
+    margin: 0 auto;
+}
+#passage img{
+    max-width: 600px;
+}
+#passage h1{
+    font-family: "宋体";
+    font-size: 14px;
+    color: #1d1d1d;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+#passage div.contents{
+    width: 600px;
+    height: 580px;
+    height:auto;
+    min-height:580px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #1d1d1d;
+    word-break: break-all;
+    line-height: 20px;
+}
+#title span{
+    color: #d0d0d0;
+    font-weight: bolder;
+}
+#title span.art_title{
+    color: #1d1d1d;
+    font-weight: normal;
+}
+#page1{
+    margin-top:50px;
+    float:right;
+    margin-right: 20px;
+}
+#page1 ul{
+    list-style: none;
+}
+#page1 ul li{
+    display:inline-block;
+}
+#page1 span.cur{
+    font-size: 12px;
+    border:1px solid #cccccc;
+    height:16px;
+    margin-right:5px;
+    color:#1382FE;
+    border:1px solid #1382FE;
+    padding:2px 2px 2px 2px;
+    line-height:16px;
+    text-decoration: none;
+    background:#ffffff;
+}
+#page1 li a{
+    display:inline-block;
+    font-size: 12px;
+    border:1px solid #cccccc;
+    height:16px;
+    margin-right:5px;
+    color:#ffffff;
+    padding:2px 2px 2px 2px;
+    line-height:16px;
+    text-decoration: none;
+    background:#1382FE;
+}
+.article{
+    width: 700px;
+    margin: 0 auto;
+    font-family: "宋体";
+    font-size: 12px;
+}
+.article li{
+    height: 36px;
+    background: url("../Img/point.gif") no-repeat;
+    border-bottom: 1px dashed #8e8e8f;
+    position: relative;
+    display: block;
+    line-height: 36px;
+    padding-left: 15px;
+}
+.article li span a{
+    color: #393939;
+    text-decoration: none;
+}
+.date{
+    color: #8e8e8f;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#page2{
+    list-style: none;
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
+#page2 li{
+    height: 26px;
+    float: left;
+    color: #514f4f;
+    font-size: 12px;;
+    font-family: "宋体";
+    margin: 0 5px;
+    line-height: 26px;
+}
+#page2 li a{
+    color: #514f4f;
+    font-size: 12px;;
+    font-family: "宋体";
+    text-decoration: none;
+}
+#page2 input{
+    width: 20px;
+}
+/*我是分割线*/
+#foot{
+	width:997px;
+	height: 50px;
+	background: #258ffe;
+	text-align: center;
+	line-height: 50px;
+    margin-top: 50px;
+}
+#foot p{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #fafbfc;
+}

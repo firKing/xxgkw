@@ -1,0 +1,173 @@
+/* CSS Document */
+body {
+	font-family:Verdana;
+	FONT-SIZE: 12px;
+	MARGIN: 0;
+	color: #000000;
+	background: #F7F7F7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	SCROLLBAR-BASE-COLOR: #739ACE
+}
+form{
+    margin:0px;
+    display:inline;
+}
+table {
+	BORDER-TOP: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-BOTTOM: 2px
+}
+select {
+	FONT-SIZE: 12px;
+	font-family:Verdana;
+	COLOR: #000000; 
+	background-color: #E0E2F1;
+}
+a {
+	TEXT-DECORATION: none;
+	color:#000000
+}
+a:hover{
+	text-decoration: underline;
+}
+input,object{
+	font-size: 12px;
+	font-family:Verdana;
+	border:1px solid #739ACE;
+	height:21px;
+}
+textarea{
+	font-size: 12px;
+	font-family:Verdana;
+	border:1px solid #739ACE;
+}
+td {
+	BORDER-RIGHT: 1px;
+	BORDER-TOP: 0px;
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+}
+.b{
+	background:#F7F7F7;
+}
+.head {
+	color: #ffffff;
+	font-weight:bold;
+	background: #739ACE;
+}
+.head td{
+	color: #ffffff;
+}
+.head a{
+	color: #ffffff;
+}
+.head_2 {
+	background: #CED4E8;
+}
+.head_2 td{
+	color: #000000;
+}
+.left_padding{
+	background:#F7F7F7;
+}
+.hr  {
+	border-top: 1px solid #6365CE;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.bold {
+	font-weight:bold;
+}
+.smalltxt {
+	font-family: Tahoma, Verdana;
+	font-size: 12px;
+	color: #000000;
+}
+.i_table{
+	border: 1px solid #739ACE;
+	background:#DEE3EF;
+}
+.ebg{
+	background: #F0EDDC;
+}
+input.SmallInput {
+	COLOR: #000066;
+	BACKGROUND: #F8F8F8;
+	border:1 solid black;
+	FONT-SIZE: 9pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 18px;
+	LINE-HEIGHT: normal
+}
+input.SmallInput1{
+	COLOR: #000066;
+	BACKGROUND: #F8F8F8;
+	border:1 solid black;
+	BORDER-RIGHT:0;
+	FONT-SIZE: 9pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 18px;
+	LINE-HEIGHT: normal
+}
+input.BigInput   {
+	COLOR: #000066;
+	BACKGROUND: #F8F8F8;
+	border:1 solid black;
+	BORDER-BOTTOM:1px double;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 20px;
+	LINE-HEIGHT: normal
+}
+input.BigButton  {
+	BORDER-RIGHT: #104a7b 1px solid ;
+	font-size: 9pt;
+	BORDER-TOP: #afc4d5 1px solid;
+	BORDER-LEFT: #afc4d5 1px solid;
+	BORDER-BOTTOM: #104a7b 1px solid;
+	BACKGROUND: #F8F8F8;
+	CURSOR: hand;
+	COLOR: #000000;
+	HEIGHT: 20px;
+	TEXT-DECORATION: none
+}
+input.SmallButton  {
+	BORDER-RIGHT: #104a7b 1px solid ;
+	font-size: 9pt;
+	BORDER-TOP: #afc4d5 1px solid;
+	BORDER-LEFT: #afc4d5 1px solid;
+	BORDER-BOTTOM: #104a7b 1px solid;
+	BACKGROUND: #F8F8F8;
+	CURSOR: hand;
+	COLOR: #000000;
+	HEIGHT: 20px;
+	TEXT-DECORATION: none
+}
+textarea.BigInput {
+	COLOR: #000066;
+	BACKGROUND: #F8F8F8;
+	border:1 solid black;
+	BORDER-BOTTOM:1px double;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: normal;
+}
+textarea.BigStatic{
+	COLOR: #000066;
+	BACKGROUND: #E0E0E0;
+	border:1 solid black;
+	BORDER-BOTTOM:1px double;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	LINE-HEIGHT: normal;
+}
